@@ -1,0 +1,84 @@
+.invitacion {
+  display: flex;
+  align-items: center;
+  padding: 10em;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bgColor);
+  position: relative;
+
+  background-image: url('bg_invitation.png');
+  background-size: cover; 
+  background-position: center; 
+}
+
+.invitacion__article {
+  width: 100%;
+}
+
+.invitacion__article__p--guest {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: var(--textBold);
+  text-align: center;
+}
+
+.invitacion__article__p {
+  color: black;
+  font-weight: var(--textLigth);
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.invitacion__article__signature {
+  width: 100%;
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 2.5rem;
+  font-weight: var(--textBold);
+  text-align: center;
+  margin-top: 1em;
+}
+
+.invitacion_corner {
+  position: absolute;
+  width: 10em;
+  transform: rotate(0deg);
+  top: 5%;
+  right: 5%;
+}
+
+.invitacion_corner2 {
+  position: absolute;
+  width: 10em;
+  transform: rotate(180deg);
+  bottom: 5%;
+  left: 5%;
+}
+
+@media (max-width:950px) {
+  
+  .invitacion {
+    padding: 1em;
+  }
+
+  .invitacion__article {
+   padding-right: 2em;
+   padding-left: 2em;
+  }
+
+  .invitacion__article__p--guest {
+    font-size: 1.1rem;
+  }
+
+  .invitacion__article__p {
+    line-height: 1.05;
+    font-size: 0.95rem;
+  }
+
+  .invitacion_corner,
+  .invitacion_corner2 {
+    width: 6em;
+  }
+
+
+}
