@@ -1,0 +1,20 @@
+.mainMenu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  height: 3.5em;
+}
+
+.mainMenu__ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.mainMenu__ul__li--a {
+  font-weight: var(--textMedium);
+  color: var(--textColor);
+}

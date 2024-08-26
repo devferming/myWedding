@@ -3,11 +3,11 @@
   align-items: center;
   padding: 10em;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: var(--bgColor);
   position: relative;
 
-  background-image: url('bg_invitation.png');
+  background-image: url('/public/bg_invitation.png');
   background-size: cover; 
   background-position: center; 
 }
@@ -36,7 +36,7 @@
   font-size: 2.5rem;
   font-weight: var(--textBold);
   text-align: center;
-  margin-top: 1em;
+  margin-top: 0.6em;
 }
 
 .invitacion_corner {
