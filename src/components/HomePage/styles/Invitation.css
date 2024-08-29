@@ -1,4 +1,4 @@
-.invitacion {
+.invitation {
   display: flex;
   align-items: center;
   padding: 10em;
@@ -7,39 +7,42 @@
   background-color: var(--bgColor);
   position: relative;
 
-  background-image: url('/public/bg_invitation.png');
+  background-image: url('/public/bg_invitation.webp');
   background-size: cover; 
   background-position: center; 
 }
 
-.invitacion__article {
+.invitation__article {
   width: 100%;
 }
 
-.invitacion__article__p--guest {
+.invitation__article__p--guest {
   width: 100%;
   font-size: 1.2rem;
   font-weight: var(--textBold);
   text-align: center;
+  color: var(--textColor2);
 }
 
-.invitacion__article__p {
+.invitation__article__p {
   color: black;
   font-weight: var(--textLigth);
   margin-bottom: 20px;
   text-align: justify;
+  color: var(--textColor2);
 }
 
-.invitacion__article__signature {
+.invitation__article__signature {
   width: 100%;
   font-family: "Qwitcher Grypen", cursive;
   font-size: 2.5rem;
   font-weight: var(--textBold);
   text-align: center;
   margin-top: 0.6em;
+  color: var(--textColor2);
 }
 
-.invitacion_corner {
+.invitation_corner {
   position: absolute;
   width: 10em;
   transform: rotate(0deg);
@@ -47,7 +50,7 @@
   right: 5%;
 }
 
-.invitacion_corner2 {
+.invitation_corner2 {
   position: absolute;
   width: 10em;
   transform: rotate(180deg);
@@ -57,26 +60,26 @@
 
 @media (max-width:950px) {
   
-  .invitacion {
+  .invitation {
     padding: 1em;
   }
 
-  .invitacion__article {
+  .invitation__article {
    padding-right: 2em;
    padding-left: 2em;
   }
 
-  .invitacion__article__p--guest {
+  .invitation__article__p--guest {
     font-size: 1.1rem;
   }
 
-  .invitacion__article__p {
+  .invitation__article__p {
     line-height: 1.05;
     font-size: 0.95rem;
   }
 
-  .invitacion_corner,
-  .invitacion_corner2 {
+  .invitation_corner,
+  .invitation_corner2 {
     width: 6em;
   }
 
