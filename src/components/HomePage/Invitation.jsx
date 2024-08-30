@@ -10,23 +10,23 @@ const Invitation = ({ id }) => {
     4: ['Astrid Pérez', 'Amada', 1],
     5: ['Antonio Palencia', 'Amado', 3],
     6: ['Erick Palencia', 'Querido', 4],
-    7: ['Peyo Pérez', 'Querido', 4],
+    7: ['Pedro Pérez', 'Querido', 4],
     8: ['Jesus Pérez', 'Querido', 4],
     9: ['Adid Pérez', 'Querido', 4],
     10: ['Yimi Pérez', 'Querido', 4],
     11: ['Wendy Pérez', 'Estimada', 2],
-    12: ['Marlene Pérez', 'Querida', 3],
-    13: ['Emilio Pérez', 'Estimado', 2],
+    12: ['Marlene Palencia', 'Querida', 3],
+    13: ['Emilio Cantillo', 'Estimado', 2],
     14: ['Harold Cervantes', 'Estimado', 1],
     15: ['Yenis Orozco', 'Estimada', 2],
     16: ['José Orozco', 'Estimado', 2],
-    17: ['Betsy Fuentes', 'Estimada', 1],
-    18: ['Karina Solorzano', 'Estimada', 1],
+    17: ['Betsy Padilla', 'Estimada', 1],
+    18: ['Karina Miranda', 'Estimada', 1],
     19: ['Claribel xxxxx', 'Estimada', 2],
-    20: ['Octavio Requena', 'Estimado', 1],
-    21: ['Dayana Fuentes', 'Estimada', 1],
-    22: ['Bleidy xxxxxx', 'Estimada', 2],
-    23: ['José Profesor', 'Estimado', 2]
+    20: ['Octavio Iglesias', 'Estimado', 1],
+    21: ['Dayana Ospino', 'Estimada', 1],
+    22: ['Bleidy Pérez', 'Estimada', 2],
+    23: ['José Gutierrez', 'Estimado', 2]
   }
 
   const quotas = [

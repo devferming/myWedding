@@ -5,6 +5,7 @@ import Ceremony from '../components/HomePage/Ceremony'
 import { useParams } from 'react-router-dom'
 import MainMenu from '../components/shared/MainMenu'
 import ButtonUp from '../components/shared/ButtonUp'
+import Gallery from '../components/HomePage/Gallery'
 
 const HomePage = () => {
 
@@ -36,6 +37,7 @@ const HomePage = () => {
       <Header />
       <Invitation id={id} />
       <Ceremony />
+      <Gallery />
       <ButtonUp scrolled={scrolled} />
     </>
   )
