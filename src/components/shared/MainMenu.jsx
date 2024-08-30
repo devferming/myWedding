@@ -9,7 +9,7 @@ const MainMenu = ( { scrolled } ) => {
         <ul className='mainMenu__ul'>
           <li className='mainMenu__ul__li'><a className='mainMenu__ul__li--a' href="#invitation">Invitación</a></li>
           <li className='mainMenu__ul__li'><a className='mainMenu__ul__li--a' href="#ceremony">Ceremonia</a></li>
-          {/* <li className='mainMenu__ul__li'><a className='mainMenu__ul__li--a' href="#afterParty">After Party</a></li> */}
+          <li className='mainMenu__ul__li'><a className='mainMenu__ul__li--a' href="#gallery">Galeria</a></li>
         </ul>
       </nav>
     )
