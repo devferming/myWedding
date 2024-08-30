@@ -50,12 +50,12 @@ const Ceremony = () => {
 
           <span className='ceremony__article__address__span'>
             <i className='ceremony__article__address__span__i bx bxs-time'></i>
-            <p className='ceremony__article__address__span__p'>Ceremonia: 07:00 PM.</p>
+            <p className='ceremony__article__address__span__p'>Ceremonia: 08:00 PM.</p>
           </span>
 
           <span className='ceremony__article__address__span'>
             <i className='ceremony__article__address__span__i bx bxs-wine'></i>
-            <p className='ceremony__article__address__span__p'>Recepción 08:00 PM. - 01:00 AM.</p>
+            <p className='ceremony__article__address__span__p'>Recepción 09:00 PM. - 02:00 AM.</p>
           </span>
 
         </div>
