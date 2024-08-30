@@ -24,7 +24,7 @@ const Invitation = ({ id }) => {
     18: ['Karina Miranda', 'Estimada', 1],
     19: ['Claribel xxxxx', 'Estimada', 2],
     20: ['Octavio Iglesias', 'Estimado', 1],
-    21: ['Dayana Ospino', 'Estimada', 1],
+    21: ['Dayana Ospino', 'Estimada', 2],
     22: ['Bleidy Pérez', 'Estimada', 2],
     23: ['José Gutierrez', 'Estimado', 2]
   }
