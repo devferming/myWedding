@@ -4,38 +4,42 @@ import './styles/Invitation.css'
 const Invitation = ({ id }) => {
 
   const guests = {
-    1: ['Luiggi Parra', 'Querido', 4],
-    2: ['Fredy Valencia', 'Estimado', 4],
-    3: ['Rocío Salazar', 'Estimada', 1],
-    4: ['Astrid Pérez', 'Amada', 1],
-    5: ['Antonio Palencia', 'Amado', 3],
-    6: ['Erick Palencia', 'Querido', 4],
-    7: ['Pedro Pérez', 'Querido', 4],
-    8: ['Jesus Pérez', 'Querido', 4],
-    9: ['Adid Pérez', 'Querido', 4],
-    10: ['Yimi Pérez', 'Querido', 4],
-    11: ['Wendy Pérez', 'Estimada', 2],
-    12: ['Marlene Palencia', 'Querida', 3],
-    13: ['Emilio Cantillo', 'Estimado', 2],
-    14: ['Harold Cervantes', 'Estimado', 1],
-    15: ['Yenis Orozco', 'Estimada', 2],
-    16: ['José Orozco', 'Estimado', 2],
-    17: ['Betsy Padilla', 'Estimada', 1],
-    18: ['Karina Miranda', 'Estimada', 1],
-    19: ['Claribel xxxxx', 'Estimada', 2],
-    20: ['Octavio Iglesias', 'Estimado', 1],
-    21: ['Dayana Ospino', 'Estimada', 2],
-    22: ['Bleidy Pérez', 'Estimada', 2],
-    23: ['José Gutierrez', 'Estimado', 2]
+    1: ['Luiggi Parra', 'Querido', 4, 1],
+    2: ['Fredy Valencia', 'Estimado', 4, 1],
+    3: ['Rocío Salazar', 'Estimada', 1, 0],
+    4: ['Astrid Pérez', 'Amada', 1, 0],
+    5: ['Antonio Palencia', 'Amado', 3, 1],
+    6: ['Erick Palencia', 'Querido', 4, 1],
+    7: ['Pedro Pérez', 'Querido', 4, 1],
+    8: ['Jesus Pérez', 'Querido', 4, 1],
+    9: ['Adid Pérez', 'Querido', 4, 1],
+    10: ['Yimi Pérez', 'Querido', 4, 1],
+    11: ['Wendy Pérez', 'Estimada', 2, 1],
+    12: ['Marlene Palencia', 'Querida', 3, 1],
+    13: ['Emilio Cantillo', 'Estimado', 2, 1],
+    14: ['Harold Cervantes', 'Estimado', 1, 0],
+    15: ['Yenis Orozco', 'Estimada', 2, 1],
+    16: ['José Orozco', 'Estimado', 2, 1],
+    17: ['Betsy Padilla', 'Estimada', 1, 0],
+    18: ['Karina Miranda', 'Estimada', 1, 0],
+    19: ['Clari Trujillo', 'Estimada', 1, 0],
+    20: ['Octavio Iglesias', 'Estimado', 1, 0],
+    21: ['Dayana Ospino', 'Estimada', 2, 1],
+    22: ['Bleidy Pérez', 'Estimada', 2, 1],
+    23: ['José Gutierrez', 'Estimado', 2, 1],
+    24: ['José y Karina', 'Estimados', 2, 2],
+    25: ['Alberto Cadavid', 'Estimado', 2, 1],
+    
   }
 
   const quotas = [
     ['invitarte a ser testigo', 'una persona tan querida cómo tú', 'te invitamos', 'Tu presencia'],
-    ['invitarte a ti y a tu bella familia a ser testigos', 'personas tan queridas cómo ustedes', 'los invitamos', 'La presencia de ustedes']
+    ['invitarte a ti y a tu bella familia a ser testigos', 'personas tan queridas cómo ustedes', 'los invitamos', 'La presencia de ustedes'],
+    ['invitarlos a ser testigos', 'personas tan queridas cómo ustedes', 'los invitamos', 'La presencia de ustedes']
   ];
 
   // Seleccionar el contenido apropiado basado en el número de cupos
-  const quotaIndex = (guests[id] && guests[id][2] > 1) ? 1 : 0;
+  const quotaIndex = guests[id][3]
   const [invitationPart1, invitationPart2, invitationPart3, invitationPart4] = quotas[quotaIndex];
 
   return (
