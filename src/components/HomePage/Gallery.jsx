@@ -18,8 +18,8 @@ const Gallery = () => {
     <section className='gallery' id='gallery'>
 
       {
-        photoGallery.map((crrPhoto) => (
-          <article className='gallery__article'>
+        photoGallery.map((crrPhoto, crridx) => (
+          <article className='gallery__article' key={`art-${crridx}`}>
             <img className='gallery__article__bg' src={crrPhoto[1]} alt="novios_img" />
             <p className='gallery__article__desc'>{crrPhoto[2]}</p>
           </article>
