@@ -31,7 +31,7 @@ const Invitation = ({ id }) => {
     25: ['Alberto Cadavid', 'Estimado', 2, 1],
     26: ['Alis Moncada', 'Estimada', 3, 1],
     27: ['Erika Anaya', 'Estimada', 2, 1],
-    28: ['Alberto Cadavid (Hijo)', 'Estimado', 2, 1],
+    28: ['Mario Cadavid', 'Estimado', 2, 1],
   }
 
 
