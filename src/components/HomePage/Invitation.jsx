@@ -29,8 +29,11 @@ const Invitation = ({ id }) => {
     23: ['José Gutierrez', 'Estimado', 2, 1],
     24: ['José y Karina', 'Estimados', 2, 2],
     25: ['Alberto Cadavid', 'Estimado', 2, 1],
-    
+    26: ['Alis Moncada', 'Estimada', 3, 1],
+    27: ['Erika Anaya', 'Estimada', 2, 1],
+    28: ['Alberto Cadavid (Hijo)', 'Estimado', 2, 1],
   }
+
 
   const quotas = [
     ['invitarte a ser testigo', 'una persona tan querida cómo tú', 'te invitamos', 'Tu presencia'],
